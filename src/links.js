@@ -1,21 +1,21 @@
 import image1 from './assets/sflink_qrcode.svg'
 import image2 from './assets/pflo_qrcode.svg'
-import image3 from './assets/na.svg'
+import image3 from './assets/rsme_qrcode.svg'
 
 export const linkData = [
     {
         "type": "linkedin",
-        "url": "https://www.linkedin.com/in/safwbdev/",
+        "url": import.meta.env.VITE_APP_LINKEDIN,
         "image": image1
     },
     {
         "type": "portfolio",
-        "url": "https://safwbdev.netlify.app/",
+        "url": import.meta.env.VITE_APP_PORTFOLIO,
         "image": image2
     },
     {
         "type": "download",
-        "url": null,
+        "url": import.meta.env.VITE_APP_DOWNLOAD,
         "image": image3
     }
 ]
