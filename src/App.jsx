@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Top />
-      <QRBox qrImage={linkData[current].image} type={linkData[current].type} />
+      {linkData[current].image && (<QRBox qrImage={linkData[current].image} type={linkData[current].type} />)}
       {linkData[current].url && (<LinkBox url={linkData[current].url} type={linkData[current].type} />)}
       <BottomNav
         value={current}

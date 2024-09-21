@@ -17,5 +17,10 @@ export const linkData = [
         "type": "download",
         "url": import.meta.env.VITE_APP_DOWNLOAD,
         "image": image3
+    },
+    {
+        "type": "doc",
+        "url": import.meta.env.VITE_APP_DOC,
+        "image": null
     }
 ]

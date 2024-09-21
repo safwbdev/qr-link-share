@@ -22,6 +22,7 @@ const BottomNav = ({ value, setValue }) => {
                 <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
                 <BottomNavigationAction label="Portfolio" icon={<SlideshowIcon />} />
                 <BottomNavigationAction label="CV" icon={<DownloadIcon />} />
+                <BottomNavigationAction label="#" icon={<DownloadIcon />} />
             </BottomNavigation>
         </Box >
     )
